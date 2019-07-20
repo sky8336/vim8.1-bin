@@ -2,3 +2,13 @@ vim_8.1.573
 ------------
 1. ning@linux:~/mn$ vi a.c ~/main.c -O
 	打开两个a.c，正常应该打开a.c 和main.c 两个文件
+
+
+
+vim_8.1.1717
+------------
+1. 映射的 vimdiff 上 ctrl+h/l 跳转不能用了, 是不是需要专门为vimdiff映射？
+	vimdiff 上光标不在的窗口，状态栏也不变按；
+
+新feature:
+1. vimdiff 同一行比较，只有不同的字符背景变红，可以比较出一行中的不同字符了。
