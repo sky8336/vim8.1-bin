@@ -1,0 +1,4 @@
+vim_8.1.573
+------------
+1. ning@linux:~/mn$ vi a.c ~/main.c -O
+	打开两个a.c，正常应该打开a.c 和main.c 两个文件
